@@ -35,10 +35,6 @@ const imageMap: Record<string, any> = {
   certificate: require("../assets/images/quick_actions/certificate.png"),
 };
 
-/* =======================================================
-   DATA SECTIONS
-======================================================= */
-
 /* --- 1. Primary Experiences --- */
 const coreActions = [
   {
@@ -50,7 +46,7 @@ const coreActions = [
   {
     title: "Bike Rentals",
     icon: "bicycle-outline",
-    route: "/(cabs)/onboarding",
+    route: "/(bikes)/explore",
     imageKey: "bike",
   },
   {
@@ -66,9 +62,15 @@ const coreActions = [
     imageKey: "event",
   },
   {
+    title: "Car Rentals",
+    icon: "car-sport-outline",
+    route: "/(cars)/explore",
+    imageKey: "cab",
+  },
+  {
     title: "Homestays",
     icon: "home-outline",
-    route: "/(stays)/browse",
+    route: "/(stays)/explore",
     imageKey: "homestay",
   },
 ];
